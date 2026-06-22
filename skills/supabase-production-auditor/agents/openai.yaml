@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supabase Production Auditor"
+  short_description: "Audit Supabase projects for RLS, security, scale, and cost risks."
+  default_prompt: "Use $supabase-production-auditor to audit this Supabase project for RLS, auth, storage, API, performance, Realtime, cost, scalability, and production-readiness risks."

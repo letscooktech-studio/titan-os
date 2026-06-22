@@ -15,6 +15,27 @@ REQUIRED_DOCS = (
     "MARKET-DOMINATION-RESEARCH.md",
     "BENCHMARK-LAB.md",
     "SELF-EVOLUTION.md",
+    "ai-code-review.md",
+    "ai-security-audit.md",
+    "architecture-review-ai.md",
+    "technical-due-diligence-ai.md",
+    "ai-cto.md",
+)
+FLAGSHIP_SKILLS = (
+    "nextjs-production-architecture-reviewer",
+    "supabase-production-auditor",
+    "ai-agent-architecture-reviewer",
+)
+FLAGSHIP_FILES = (
+    "README.md",
+    "SKILL.md",
+    "EVALUATION.md",
+    "BENCHMARK.md",
+    "RUBRIC.md",
+    "FAILURE_PATTERNS.md",
+    "CASE_STUDIES.md",
+    "EXAMPLES.md",
+    "CHANGELOG.md",
 )
 
 def frontmatter(text: str, path: Path) -> list[str]:
@@ -64,6 +85,13 @@ def main() -> int:
         path = ROOT / "templates" / "skill-proof-pack" / filename
         if not path.is_file():
             errors.append(f"{path}: missing proof-pack template")
+    if not (ROOT / "templates" / "flagship-skill-generation-system.md").is_file():
+        errors.append("templates/flagship-skill-generation-system.md: missing flagship skill template")
+    for name in FLAGSHIP_SKILLS:
+        for filename in FLAGSHIP_FILES:
+            path = ROOT / "skills" / name / filename
+            if not path.is_file():
+                errors.append(f"{path}: missing flagship skill package file")
     if errors:
         print("Validation failed:", *errors, sep="\n- ")
         return 1

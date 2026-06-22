@@ -33,6 +33,16 @@ AI Engineering Arsenal is currently a library of cross-model operating skills. T
 - AI CTO operating rhythms
 - SaaS, Supabase, Next.js, RAG, and AI agent decision-making
 
+## Flagship production reviewers
+
+These are the category-defining Arsenal skills. Start here if you want practical value instead of another prompt collection.
+
+| Reviewer | What it catches | Best for |
+| --- | --- | --- |
+| [`nextjs-production-architecture-reviewer`](skills/nextjs-production-architecture-reviewer) | Next.js architecture, App Router, Server Actions, performance, SEO, AI-search, security, Vercel cost, Supabase integration, and deployment risks. | Next.js SaaS, AI platforms, ecommerce, dashboards, blogs, marketplaces, agency sites. |
+| [`supabase-production-auditor`](skills/supabase-production-auditor) | RLS bypass, service-role misuse, weak auth, storage exposure, Realtime fan-out, database growth, cost, backups, and production-readiness gaps. | Supabase SaaS, AI apps, mobile apps, internal tools, marketplaces, learning platforms. |
+| [`ai-agent-architecture-reviewer`](skills/ai-agent-architecture-reviewer) | Planning failures, memory risks, tool abuse, MCP risks, prompt injection, hallucination gaps, cost fan-out, observability, and reliability issues. | AI agents, copilots, workflow agents, browser agents, coding agents, research agents, multi-agent systems. |
+
 ## See the difference
 
 | Without a playbook | With an Arsenal playbook |
@@ -66,7 +76,17 @@ Works as portable Markdown with Codex, Claude Code/Projects, ChatGPT, Gemini, Cu
 
 ## First wave
 
-`security-auditor` · `startup-validator` · `competitor-analyzer` · `system-architect` · `database-architect` · `technical-debt-hunter` · `ai-search-optimizer` · `seo-auditor` · `cost-explosion-detector` · `cto-operating-system` · `production-ai-saas-builder`
+`nextjs-production-architecture-reviewer` · `supabase-production-auditor` · `ai-agent-architecture-reviewer` · `security-auditor` · `startup-validator` · `competitor-analyzer` · `system-architect` · `database-architect` · `technical-debt-hunter` · `ai-search-optimizer` · `seo-auditor` · `cost-explosion-detector` · `cto-operating-system` · `production-ai-saas-builder`
+
+## Searchable guides
+
+These pages are written for GitHub, Google, and AI-search discoverability while staying useful to developers:
+
+- [AI code review](docs/ai-code-review.md)
+- [AI security audit](docs/ai-security-audit.md)
+- [Architecture review AI](docs/architecture-review-ai.md)
+- [Technical due diligence AI](docs/technical-due-diligence-ai.md)
+- [AI CTO](docs/ai-cto.md)
 
 ## Evidence, not marketing
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js Production Architecture Reviewer"
+  short_description: "Audit Next.js apps for production architecture risks."
+  default_prompt: "Use $nextjs-production-architecture-reviewer to review this Next.js project for architecture, security, performance, SEO, AI-search, cost, scalability, deployment, and production-readiness risks."

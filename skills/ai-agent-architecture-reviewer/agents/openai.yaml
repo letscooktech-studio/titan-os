@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Agent Architecture Reviewer"
+  short_description: "Audit AI agents for planning, memory, tool, security, cost, and reliability risks."
+  default_prompt: "Use $ai-agent-architecture-reviewer to review this AI agent system for architecture, planning, memory, tool safety, verification, security, reliability, cost, scalability, and production readiness."
