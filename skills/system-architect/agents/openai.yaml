@@ -1,0 +1,4 @@
+interface:
+  display_name: "System Architect"
+  short_description: "Design resilient systems and explain trade-offs."
+  default_prompt: "Use $system-architect to analyze the supplied context and produce an evidence-led plan."

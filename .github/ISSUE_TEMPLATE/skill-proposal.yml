@@ -1,0 +1,30 @@
+name: Propose a skill
+description: Propose a repeatable operating procedure.
+title: "skill: "
+labels: [skill-proposal]
+body:
+  - type: textarea
+    attributes:
+      label: Decision problem
+      description: What recurring, consequential decision does this address?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Users and input artifacts
+      description: Who uses it and what evidence can they provide?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evaluation case
+      description: Give a sanitized ordinary, incomplete, or adversarial case and a measurable rubric.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Risks and boundaries
+      description: What unsafe, misleading, or out-of-scope output must it avoid?
+    validations:
+      required: true
+

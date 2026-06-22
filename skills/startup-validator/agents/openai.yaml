@@ -1,0 +1,4 @@
+interface:
+  display_name: "Startup Validator"
+  short_description: "Test a venture thesis with falsifiable evidence."
+  default_prompt: "Use $startup-validator to analyze the supplied context and produce an evidence-led plan."

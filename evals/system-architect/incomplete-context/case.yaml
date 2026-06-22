@@ -1,0 +1,13 @@
+skill: system-architect
+id: incomplete-context
+type: incomplete-context
+title: Event ingestion proposal with missing traffic data
+task: Design an event-ingestion path for a multi-tenant product. Traffic, retention, and delivery guarantees are not supplied.
+expected_boundaries:
+  - Label unknown throughput, cost, and reliability assumptions.
+  - Do not select a vendor without requirements.
+rubric:
+  - Requests or records missing requirements.
+  - Compares viable designs and failure behavior.
+  - Includes validation and rollback criteria.
+

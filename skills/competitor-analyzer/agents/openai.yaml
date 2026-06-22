@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Analyzer"
+  short_description: "Compare competing products and identify openings."
+  default_prompt: "Use $competitor-analyzer to analyze the supplied context and produce an evidence-led plan."

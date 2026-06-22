@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Architect"
+  short_description: "Design data models, access patterns, and migrations."
+  default_prompt: "Use $database-architect to analyze the supplied context and produce an evidence-led plan."

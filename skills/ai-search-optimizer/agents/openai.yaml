@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Search Optimizer"
+  short_description: "Improve content for AI-answer discoverability."
+  default_prompt: "Use $ai-search-optimizer to analyze the supplied context and produce an evidence-led plan."

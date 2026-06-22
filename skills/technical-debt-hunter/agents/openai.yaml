@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Debt Hunter"
+  short_description: "Find debt with impact, evidence, and repair plans."
+  default_prompt: "Use $technical-debt-hunter to analyze the supplied context and produce an evidence-led plan."

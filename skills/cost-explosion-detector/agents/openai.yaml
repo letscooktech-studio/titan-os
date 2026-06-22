@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cost Explosion Detector"
+  short_description: "Locate cloud and AI cost escalation risks."
+  default_prompt: "Use $cost-explosion-detector to analyze the supplied context and produce an evidence-led plan."

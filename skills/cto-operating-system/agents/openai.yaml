@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTO Operating System"
+  short_description: "Run an evidence-led engineering operating review."
+  default_prompt: "Use $cto-operating-system to analyze the supplied context and produce an evidence-led plan."

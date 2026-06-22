@@ -1,0 +1,4 @@
+interface:
+  display_name: "Production AI SaaS Builder"
+  short_description: "Build and launch production AI SaaS products."
+  default_prompt: "Use $production-ai-saas-builder to deliver a production-ready AI SaaS from requirements to launch plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Auditor"
+  short_description: "Audit technical, content, and search performance gaps."
+  default_prompt: "Use $seo-auditor to analyze the supplied context and produce an evidence-led plan."
