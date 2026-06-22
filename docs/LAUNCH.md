@@ -2,7 +2,9 @@
 
 ## Positioning
 
-**Titan OS: evidence-led operating skills for engineering decisions.** Do not promise autonomous CTO work, benchmark wins without artifacts, rankings, or a star target.
+**AI Engineering Arsenal: open-source AI engineering skills, workflows, audits, benchmarks, and playbooks.** Do not promise autonomous CTO work, benchmark wins without artifacts, rankings, or a star target.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Launch sequence
 

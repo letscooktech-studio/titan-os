@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free structural checks for Titan OS skills and evaluation cases."""
+"""Dependency-free structural checks for AI Engineering Arsenal skills and evaluation cases."""
 from pathlib import Path
 import re
 import sys
@@ -7,8 +7,8 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_SECTIONS = ("Workflow", "Output contract", "Quality gates")
 REQUIRED_DOCS = (
-    "OMEGA-AUDIT.md",
-    "TITAN-CONSTITUTION.md",
+    "REPOSITORY-AUDIT.md",
+    "ARSENAL-CONSTITUTION.md",
     "OPERATING-MODEL.md",
     "EVALUATION-STANDARD.md",
     "RED-TEAM-FRAMEWORK.md",
@@ -59,7 +59,7 @@ def main() -> int:
     for filename in REQUIRED_DOCS:
         path = ROOT / "docs" / filename
         if not path.is_file():
-            errors.append(f"{path}: missing Omega trust-system document")
+                errors.append(f"{path}: missing AI Engineering Arsenal trust-system document")
     for filename in ("BENCHMARK.md", "RUBRIC.md", "CASE_STUDY.md", "FAILURE_PATTERNS.md", "EVALUATION.md", "EXAMPLES.md"):
         path = ROOT / "templates" / "skill-proof-pack" / filename
         if not path.is_file():

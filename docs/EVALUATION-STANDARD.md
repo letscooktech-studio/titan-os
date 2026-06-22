@@ -1,6 +1,8 @@
-# Titan Evaluation Standard
+# AI Engineering Arsenal Evaluation Standard
 
-Titan outputs are scored on evidence, not style. The score should punish confident unsupported answers and reward calibrated, verifiable work.
+AI Engineering Arsenal outputs are scored on evidence, not style. The score should punish confident unsupported answers and reward calibrated, verifiable work.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Scorecard
 
@@ -39,4 +41,4 @@ Every evaluated output should include:
 
 ## Benchmark comparison rule
 
-A Titan result only beats a default AI result when it improves the weighted total without creating unacceptable safety, accuracy, or maintenance regressions. Publish losses and ties. They are part of the improvement loop.
+A Framework result only beats a default AI result when it improves the weighted total without creating unacceptable safety, accuracy, or maintenance regressions. Publish losses and ties. They are part of the improvement loop.

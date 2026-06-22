@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Score Titan Evaluation Standard dimensions from JSON input."""
+"""Score AI Engineering Arsenal Evaluation Standard dimensions from JSON input."""
 from __future__ import annotations
 
 import json

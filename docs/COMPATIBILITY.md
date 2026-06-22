@@ -1,6 +1,8 @@
 # Compatibility
 
-Titan's source of truth is portable Markdown. A skill works anywhere an agent can receive a task-specific instruction file.
+Developed by the LetsCookTech Open Source Team.
+
+AI Engineering Arsenal's source of truth is portable Markdown. A skill works anywhere an agent can receive a task-specific instruction file.
 
 | Surface | Use now | Adapter status |
 | --- | --- | --- |
@@ -12,4 +14,3 @@ Titan's source of truth is portable Markdown. A skill works anywhere an agent ca
 | Agent SDKs / MCP clients | Load skill text at task routing time; keep tool permissions outside the skill. | Integration pattern |
 
 Adapters must preserve the original safety boundaries, output contract, and version. Do not claim native support for a platform until a tested adapter is published.
-

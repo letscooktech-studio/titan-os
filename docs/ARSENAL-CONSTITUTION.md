@@ -1,6 +1,8 @@
-# Titan OS constitution
+# AI Engineering Arsenal constitution
 
-Titan exists to help AI systems catch important things normal AI misses. Every contribution must increase trust, repeatability, or measurable user value.
+AI Engineering Arsenal exists to help AI systems catch important things normal AI misses. Every contribution must increase trust, repeatability, or measurable user value.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Laws
 
@@ -9,7 +11,7 @@ Titan exists to help AI systems catch important things normal AI misses. Every c
 3. Every output must separate facts, evidence, assumptions, estimates, and decisions.
 4. Every workflow must include verification.
 5. Every workflow must expose risks before final recommendations.
-6. Every benchmark claim must include baseline output, Titan output, evaluator criteria, model details, and limitations.
+6. Every benchmark claim must include baseline output, Framework output, evaluator criteria, model details, and limitations.
 7. Every skill must define what a good result looks like before producing the result.
 8. Every skill must know when to stop because evidence is insufficient.
 9. Every contribution must reduce user burden, not shift ambiguity onto the user.
@@ -28,6 +30,6 @@ Before accepting a change, ask:
 - Can the value be observed or scored?
 - Does it reduce hallucination, blind confidence, or missed risk?
 - Would a senior engineer, CTO, founder, or security reviewer respect the artifact?
-- Does it improve the reputation: "Titan catches things normal AI misses"?
+- Does it improve the reputation: "AI Engineering Arsenal catches things normal AI misses"?
 
 If the answer is no, reject or rewrite the change.

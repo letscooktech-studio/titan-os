@@ -1,22 +1,41 @@
-# Titan OS
+# AI Engineering Arsenal
 
-**Open Source AI CTO playbooks that catch what normal AI misses.**
+![LetsCookTech Open Source Team banner](assets/letscooktech-open-source-team-banner.png)
 
-Default AI answers are often plausible but hard to trust: they skip evidence, confuse guesses with facts, miss release risks, and leave no test path. Titan gives an assistant an operational contract: what to inspect, what to prove, what to refuse, how to verify, and what artifact to hand to a human.
+**Production-grade AI engineering skills, audits, workflows, benchmarks, and evaluation frameworks.**
 
-> Titan is currently a library of cross-model operating skills. "OS" is the direction: a future layer for routing, evaluation, policy, and lifecycle, not a claim that those runtime components already exist.
+The open-source AI engineering framework for architecture reviews, security audits, startup validation, competitor analysis, AI systems design, SEO audits, AI code review, technical due diligence, and technical decision-making.
 
-## Why use Titan instead of asking an AI directly?
+Built for developers, founders, CTOs, technical teams, and AI builders.
 
-Because the hard part is not getting an answer. The hard part is getting an answer that exposes assumptions, verifies claims, names risks, and survives a serious review.
+Developed by the LetsCookTech Open Source Team.
 
-Titan is designed around one reputation:
+## Why use AI Engineering Arsenal instead of asking an AI directly?
+
+Default AI answers are often plausible but hard to trust: they skip evidence, confuse guesses with facts, miss release risks, and leave no test path. AI Engineering Arsenal gives an assistant an operational contract: what to inspect, what to prove, what to refuse, how to verify, and what artifact to hand to a human.
+
+The reputation this project is designed to earn:
 
 > This framework catches things normal AI misses.
 
+AI Engineering Arsenal is currently a library of cross-model operating skills. The long-term direction is an AI engineering operating layer for routing, evaluation, policy, and lifecycle. The current repository is intentionally honest about what exists today.
+
+## What it helps with
+
+- AI code review
+- Security audit AI workflows
+- Architecture review and system design
+- Startup validation
+- Competitor analysis
+- Technical due diligence
+- Engineering playbooks and engineering workflows
+- AI evaluation and benchmark design
+- AI CTO operating rhythms
+- SaaS, Supabase, Next.js, RAG, and AI agent decision-making
+
 ## See the difference
 
-| Without a playbook | With a Titan playbook |
+| Without a playbook | With an Arsenal playbook |
 | --- | --- |
 | "Add authentication and validate inputs." | Maps assets and trust boundaries; reports evidence, preconditions, impact, remediation, regression tests, confidence, and review gaps. |
 | "Use a queue and a database." | Compares designs, records assumptions and trade-offs, specifies timeouts/retries/rollback, and names the test that validates the decision. |
@@ -51,21 +70,35 @@ Works as portable Markdown with Codex, Claude Code/Projects, ChatGPT, Gemini, Cu
 
 ## Evidence, not marketing
 
-Titan does not claim that a playbook finds more issues, saves money, or outperforms a model until a reproducible result is published. Each benchmark holds model/version, tools, temperature, budget, inputs, rubric, baseline, playbook run, evaluator, and limitations constant. Read the [benchmark protocol](benchmarks/README.md).
+AI Engineering Arsenal does not claim that a playbook finds more issues, saves money, or outperforms a model until a reproducible result is published. Each benchmark holds model/version, tools, temperature, budget, inputs, rubric, baseline, playbook run, evaluator, and limitations constant. Read the [benchmark protocol](benchmarks/README.md).
 
-## Omega trust system
+## Trust system
 
-Titan now has a repository-level system for improving itself instead of only adding more skills:
+AI Engineering Arsenal has a repository-level system for improving itself instead of only adding more skills:
 
 | System | Purpose |
 | --- | --- |
-| [Omega audit](docs/OMEGA-AUDIT.md) | Finds weak assets, filler risk, missing proof, and deletion candidates. |
-| [Titan constitution](docs/TITAN-CONSTITUTION.md) | Defines the laws every contribution must follow. |
+| [Repository audit](docs/REPOSITORY-AUDIT.md) | Finds weak assets, filler risk, missing proof, and deletion candidates. |
+| [Arsenal constitution](docs/ARSENAL-CONSTITUTION.md) | Defines the laws every contribution must follow. |
 | [AI CTO operating model](docs/OPERATING-MODEL.md) | Standardizes input, research, verification, risk review, decision, and quality review. |
 | [Evaluation standard](docs/EVALUATION-STANDARD.md) | Scores outputs across accuracy, evidence, verification, actionability, security, and user value. |
 | [Red-team framework](docs/RED-TEAM-FRAMEWORK.md) | Attacks outputs before users trust them. |
 | [Benchmark lab](docs/BENCHMARK-LAB.md) | Defines the proof artifacts required before performance claims. |
-| [Self-evolution roadmap](docs/SELF-EVOLUTION.md) | Moves Titan toward proof engine, runtime adapters, and Open Source AI CTO. |
+| [Self-evolution roadmap](docs/SELF-EVOLUTION.md) | Moves the project toward a proof engine, runtime adapters, and Open Source AI CTO workflows. |
+
+## FAQ
+
+### Is this just a prompt repository?
+
+No. A prompt repository optimizes for copyable text. AI Engineering Arsenal optimizes for evidence, verification, failure detection, benchmarks, and repeatable engineering decisions.
+
+### Is this tied to one AI model?
+
+No. The playbooks are Markdown-first and model-portable. They are designed for Claude, ChatGPT, Gemini, Codex, Cursor, Windsurf, Cline, Roo Code, Aider, OpenAI Agents, Anthropic agents, and future AI systems.
+
+### Does it already prove benchmark superiority?
+
+Not yet. The repository includes rubrics, synthetic case studies, and benchmark protocol. Public benchmark wins should only be claimed after raw baseline and framework outputs are published.
 
 ## Contribute a useful playbook
 
@@ -85,6 +118,8 @@ A contribution needs a recurring decision problem, an evidence/verification cont
 ## Status
 
 `v0.1.0` is a foundation release. Case studies are synthetic demonstrations; public benchmark results are not yet published. That distinction is intentional.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## License
 

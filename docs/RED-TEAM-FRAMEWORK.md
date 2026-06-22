@@ -1,6 +1,8 @@
 # Red-team framework
 
-Titan should attack its own outputs before users do.
+AI Engineering Arsenal should attack its own outputs before users do.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Red-team questions
 

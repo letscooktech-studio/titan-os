@@ -1,5 +1,7 @@
 # Contributing
 
+Developed by the LetsCookTech Open Source Team.
+
 Open an issue before a large skill so the problem, user, evidence sources, and evaluation case are clear. Keep pull requests narrow.
 
 ## A skill must

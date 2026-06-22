@@ -10,11 +10,11 @@ Synthetic / real / redacted real
 
 ## Default AI behavior
 
-## Titan behavior
+## Framework behavior
 
-## What Titan caught
+## What Framework caught
 
-## What Titan missed
+## What Framework missed
 
 ## Lessons
 

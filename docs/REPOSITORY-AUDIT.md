@@ -1,13 +1,15 @@
-# Titan OS Omega audit
+# AI Engineering Arsenal repository audit
 
-This audit converts the repository from a collection of playbooks into a trust system. The core risk is not that Titan has too few skills. The risk is that it publishes impressive text without proving repeatable value.
+This audit converts the repository from a collection of playbooks into a trust system. The core risk is not that AI Engineering Arsenal has too few skills. The risk is that it publishes impressive text without proving repeatable value.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Asset audit
 
 | Area | Purpose | Target user | Usage frequency | Measurable value | Maintenance cost | Redundancy risk | Improvement priority |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `skills/` | Portable AI operating playbooks | Founders, engineers, CTOs, AI builders | High when solving recurring decisions | Better decisions, fewer missed risks, clearer outputs | Medium | High if skills become generic prompts | Keep only skills with a benchmark path |
-| `benchmarks/` | Rubrics and comparison protocol | Evaluators, maintainers, skeptical users | Medium | Evidence of improvement vs default AI | Medium | Low | Add runnable baseline/Titan result pairs |
+| `benchmarks/` | Rubrics and comparison protocol | Evaluators, maintainers, skeptical users | Medium | Evidence of improvement vs default AI | Medium | Low | Add runnable baseline/Framework result pairs |
 | `case-studies/` | Demonstrations of output quality | New users, launch audiences | High during evaluation | Faster trust formation | Medium | Medium if synthetic examples look like marketing | Label synthetic vs real and publish raw inputs |
 | `evals/` | Versioned task fixtures | Contributors, maintainers | Medium | Reproducibility | Medium | Low | Add expected risk inventory and scorer bindings |
 | `docs/` | Standards, positioning, operating rules | Maintainers, contributors, advanced users | Medium | Consistency and onboarding | Medium | Medium | Link every standard to validation |
@@ -16,7 +18,7 @@ This audit converts the repository from a collection of playbooks into a trust s
 
 ## Critical weaknesses
 
-1. Titan still has more standards than public proof. Users trust results, not promises.
+1. AI Engineering Arsenal still has more standards than public proof. Users trust results, not promises.
 2. Several skills are useful but not yet surrounded by runnable benchmark artifacts.
 3. The repo can look like a prompt repository unless README, examples, and benchmarks keep emphasizing measured outcomes.
 4. Market research is directional, not continuously refreshed with live star counts and competitor release changes.
@@ -28,7 +30,7 @@ This audit converts the repository from a collection of playbooks into a trust s
 - A red-team checklist that attacks outputs before publication.
 - Proof-pack templates so every skill evolves the same way.
 - A release gate that blocks unbenchmarked claims.
-- A benchmark ledger showing baseline output, Titan output, evaluator score, and known limitations.
+- A benchmark ledger showing baseline output, Framework output, evaluator score, and known limitations.
 
 ## AI-generated filler detection
 
@@ -53,8 +55,8 @@ Before adding a new skill, remove or rewrite any existing skill that lacks:
 
 ## Next proof priorities
 
-1. Create baseline and Titan outputs for `security-auditor` using `evals/security-auditor/ordinary`.
+1. Create baseline and AI Engineering Arsenal outputs for `security-auditor` using `evals/security-auditor/ordinary`.
 2. Add expected-risk inventories to all tier-one evals.
-3. Score outputs with the Titan Evaluation Standard.
-4. Publish a transparent comparison table even when Titan loses on a dimension.
+3. Score outputs with the AI Engineering Arsenal Evaluation Standard.
+4. Publish a transparent comparison table even when AI Engineering Arsenal loses on a dimension.
 5. Use real public demo apps only when authorization and license boundaries are clean.

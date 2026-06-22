@@ -1,12 +1,14 @@
 # Market and competitor analysis
 
+Developed by the LetsCookTech Open Source Team.
+
 ## Research method
 
-The 2026-06-22 ecosystem snapshot in [PROJECT-TITAN.md](PROJECT-TITAN.md) records public GitHub discovery counts. Counts are directional and time-stamped; they are not growth rates. Repeat the collection monthly, retain raw links and dates, and calculate growth only from the stored series. Product claims need a primary source (documentation, pricing, changelog, or repository) and a retrieval date.
+The 2026-06-22 ecosystem snapshot in [PROJECT-ARSENAL.md](PROJECT-ARSENAL.md) records public GitHub discovery counts. Counts are directional and time-stamped; they are not growth rates. Repeat the collection monthly, retain raw links and dates, and calculate growth only from the stored series. Product claims need a primary source (documentation, pricing, changelog, or repository) and a retrieval date.
 
 ## What established repositories reveal
 
-| Category | Users love | Common failure | Titan response |
+| Category | Users love | Common failure | Arsenal response |
 | --- | --- | --- | --- |
 | Prompt collections | Immediate copy/paste utility and breadth | Generic, stale, untested entries | Small decision workflows with evaluation gates |
 | Rules and memories | Local context and consistent conventions | Vendor lock-in; weak portability | Plain Markdown source plus thin adapters |
@@ -28,4 +30,3 @@ Teams need procedures that produce decisions they can inspect: evidence, unknown
 2. Model-agnostic authoring wins as agent surfaces proliferate.
 3. Skills converge with policy, tool permissions, and structured outputs; this repository should remain compatible without bundling unsafe permissions.
 4. Teams will value maintenance signals—owners, review dates, deprecations—as highly as novelty.
-

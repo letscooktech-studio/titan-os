@@ -1,6 +1,8 @@
 # AI CTO operating model
 
-Every Titan skill follows the same operating spine. A skill may compress steps when the task is simple, but it may not skip the reasoning obligation.
+Every Arsenal skill follows the same operating spine. A skill may compress steps when the task is simple, but it may not skip the reasoning obligation.
+
+Developed by the LetsCookTech Open Source Team.
 
 ```mermaid
 flowchart TD
@@ -32,7 +34,7 @@ flowchart TD
 
 ## Internal specialist lenses
 
-Titan uses specialist lenses, not theatrical multi-agent roleplay. For every material task, review the output through the relevant lenses:
+AI Engineering Arsenal uses specialist lenses, not theatrical multi-agent roleplay. For every material task, review the output through the relevant lenses:
 
 | Lens | Challenge question |
 | --- | --- |

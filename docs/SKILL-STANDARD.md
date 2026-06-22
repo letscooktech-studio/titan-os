@@ -1,6 +1,6 @@
-# Titan skill standard
+# AI Engineering Arsenal skill standard
 
-Every published Titan skill is an operating procedure, not a persona. Its `SKILL.md` must contain a precise trigger description, a minimum intake, workflow, output contract, quality gates, and improvement loop. The following controls apply to every skill, including where a concise skill does not repeat them verbatim.
+Every published Arsenal skill is an operating procedure, not a persona. Its `SKILL.md` must contain a precise trigger description, a minimum intake, workflow, output contract, quality gates, and improvement loop. The following controls apply to every skill, including where a concise skill does not repeat them verbatim.
 
 ## Evidence and reasoning
 

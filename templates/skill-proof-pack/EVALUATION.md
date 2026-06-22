@@ -3,7 +3,7 @@
 ## Summary
 
 - Default AI score:
-- Titan score:
+- Framework score:
 - Difference:
 - Confidence:
 

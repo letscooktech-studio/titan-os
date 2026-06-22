@@ -1,6 +1,8 @@
-# Titan self-evolution roadmap
+# AI Engineering Arsenal self-evolution roadmap
 
-Titan should improve through scored failures, not prompt inflation.
+AI Engineering Arsenal should improve through scored failures, not prompt inflation.
+
+Developed by the LetsCookTech Open Source Team.
 
 ## Current weaknesses
 
@@ -15,13 +17,13 @@ Titan should improve through scored failures, not prompt inflation.
 - Category confusion if "OS" implies runtime capabilities before they exist.
 - Contributor quality may drop if templates encourage filler.
 - Competitors may add benchmarks faster.
-- Model improvements may reduce perceived need unless Titan focuses on verification and operating discipline.
+- Model improvements may reduce perceived need unless AI Engineering Arsenal focuses on verification and operating discipline.
 
 ## V3: Proof engine
 
-Goal: make Titan visibly better than default AI on tier-one tasks.
+Goal: make AI Engineering Arsenal visibly better than default AI on tier-one tasks.
 
-- Add baseline/Titan output pairs for four tier-one skills.
+- Add baseline/Framework output pairs for four tier-one skills.
 - Add expected finding inventories for eval cases.
 - Add a scoring script that produces weighted totals.
 - Add benchmark submission issue template.
@@ -29,7 +31,7 @@ Goal: make Titan visibly better than default AI on tier-one tasks.
 
 ## V4: Runtime adapters
 
-Goal: make Titan easy to use across tools.
+Goal: make AI Engineering Arsenal easy to use across tools.
 
 - Add adapter docs for Codex, Claude, ChatGPT, Cursor, Windsurf, Cline, Roo Code, Aider, and agent SDKs.
 - Add machine-readable skill manifests.

@@ -1,6 +1,8 @@
 # Benchmark contract
 
-Titan evaluates whether a skill improves decisions, not whether it produces longer prose.
+Developed by the LetsCookTech Open Source Team.
+
+AI Engineering Arsenal evaluates whether a skill improves decisions, not whether it produces longer prose.
 
 ## Case format
 

@@ -14,7 +14,7 @@
 ## Runs
 
 - Default AI output:
-- Titan output:
+- Framework output:
 
 ## Controls
 
