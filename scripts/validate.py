@@ -92,6 +92,10 @@ def main() -> int:
             path = ROOT / "skills" / name / filename
             if not path.is_file():
                 errors.append(f"{path}: missing flagship skill package file")
+        for filename in ("evaluation-rubric.md", "failure-patterns.md", "comparison-template.md"):
+            path = ROOT / "benchmarks" / name / filename
+            if not path.is_file():
+                errors.append(f"{path}: missing flagship benchmark artifact")
     if errors:
         print("Validation failed:", *errors, sep="\n- ")
         return 1

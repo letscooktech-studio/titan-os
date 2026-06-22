@@ -43,6 +43,8 @@ These are the category-defining Arsenal skills. Start here if you want practical
 | [`supabase-production-auditor`](skills/supabase-production-auditor) | RLS bypass, service-role misuse, weak auth, storage exposure, Realtime fan-out, database growth, cost, backups, and production-readiness gaps. | Supabase SaaS, AI apps, mobile apps, internal tools, marketplaces, learning platforms. |
 | [`ai-agent-architecture-reviewer`](skills/ai-agent-architecture-reviewer) | Planning failures, memory risks, tool abuse, MCP risks, prompt injection, hallucination gaps, cost fan-out, observability, and reliability issues. | AI agents, copilots, workflow agents, browser agents, coding agents, research agents, multi-agent systems. |
 
+Each flagship reviewer includes a benchmark rubric and comparison template under [`benchmarks/`](benchmarks) so future claims can be proven with baseline-vs-framework outputs.
+
 ## See the difference
 
 | Without a playbook | With an Arsenal playbook |
